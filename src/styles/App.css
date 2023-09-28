@@ -415,3 +415,7 @@ a {
         filter: opacity(1);
     }
 }
+
+::placeholder {
+    color: rgb(188, 188, 188) !important;
+}

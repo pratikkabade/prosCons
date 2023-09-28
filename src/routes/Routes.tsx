@@ -1,6 +1,5 @@
 import { BrowserRouter, Route, Routes, } from "react-router-dom"
 import { ProjectNavbar } from "../components/ProjectNavbar"
-import { ProjectFooter } from "../components/ProjectFooter"
 import { Records } from "../pages/Records"
 
 const RouteItems = [
@@ -27,7 +26,6 @@ export const AppRoutes = () => {
                         })
                     }
                 </Routes>
-                <ProjectFooter />
             </BrowserRouter>
         </div>
     )

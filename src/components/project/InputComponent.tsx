@@ -1,4 +1,3 @@
-import { Label } from "flowbite-react"
 import { useState } from "react"
 
 type InputProps = {
@@ -36,18 +35,18 @@ export const InputComponent = (props: InputProps) => {
                 <i className="fa-solid fa-circle-question"></i>
             </h3>
             <div className="flex flex-row flex-wrap w-full justify-center">
-                <input type={"text"} placeholder=""
+                <input type={"text"} placeholder="Description"
                     className="w-full mx-2 form-control block px-3 py-1.5 text-base font-normal text-gray-900 dark:text-gray-200 bg-clip-padding border border-solid border-gray-100 dark:border-gray-700 rounded-lg transition ease-in-out m-0 focus:text-gray-900 dark:focus:text-gray-200 focus:bg-gray-100 dark:focus:bg-gray-600 focus:border-gray-500 focus:outline-none dark:bg-gray-700 bg-gray-50"
                     onChange={(e) => { setValue(e.target.value) }}
                     value={value} />
 
                 <div className="flex flex-row flex-wrap w-full justify-center mt-3">
-                    <input type={"text"} placeholder=""
+                    <input type={"text"} placeholder="Pros"
                         className="w-5/12 mx-2 form-control block px-3 py-1.5 text-base font-normal text-gray-900 dark:text-gray-200 bg-clip-padding border border-solid border-gray-100 dark:border-gray-700 rounded-lg transition ease-in-out m-0 focus:text-gray-900 dark:focus:text-gray-200 focus:bg-green-100 dark:focus:bg-green-800 focus:border-green-600 focus:outline-none dark:bg-green-900 bg-green-50"
                         onChange={(e) => { setPro(e.target.value) }}
                         value={pro} />
 
-                    <input type={"text"} placeholder=""
+                    <input type={"text"} placeholder="Cons"
                         className="w-5/12 mx-2 form-control block px-3 py-1.5 text-base font-normal text-gray-900 dark:text-gray-200 bg-clip-padding border border-solid border-gray-100 dark:border-gray-700 rounded-lg transition ease-in-out m-0 focus:text-gray-900 dark:focus:text-gray-200 focus:bg-red-100 dark:focus:bg-red-800 focus:border-red-600 focus:outline-none dark:bg-red-900 bg-red-50"
                         onChange={(e) => { setCon(e.target.value) }}
                         value={con} />

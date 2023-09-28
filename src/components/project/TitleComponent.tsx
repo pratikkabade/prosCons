@@ -20,8 +20,8 @@ export const TitleComponent = () => {
 
     return (
         <div className="flex flex-row flex-wrap w-full justify-center mb-20">
-            <input type={"text"} placeholder="Set a title"
-                className="w-full mx-2 my-4 mt-12 text-center text-2xl form-control block px-3 py-1.5 font-normal text-gray-900 dark:text-gray-200 bg-clip-padding border border-solid border-gray-100 dark:border-gray-700 rounded-lg transition ease-in-out m-0 focus:text-gray-900 dark:focus:text-gray-200 focus:bg-gray-100 dark:focus:bg-gray-600 focus:border-gray-500 focus:outline-none dark:bg-gray-700 bg-gray-50"
+            <input type={"text"} placeholder="The Decision"
+                className="txtinp w-full mx-2 my-4 mt-12 text-center text-2xl form-control block px-3 py-1.5 font-normal text-gray-900 dark:text-gray-200 bg-clip-padding border border-solid border-gray-100 dark:border-gray-700 rounded-lg transition ease-in-out m-0 focus:text-gray-900 dark:focus:text-gray-200 focus:bg-gray-100 dark:focus:bg-gray-600 focus:border-gray-500 focus:outline-none dark:bg-gray-700 bg-gray-50"
                 onChange={(e) => { setTitle(e.target.value) }}
                 value={title} />
 
