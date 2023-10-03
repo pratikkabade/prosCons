@@ -5,7 +5,7 @@ import { Records } from "../pages/Records"
 
 const RouteItems = [
     { name: "Home", link: "/", element: <Records /> },
-    { name: "Home", link: "/my-ProsCons/", element: <Records /> },
+    { name: "Home", link: "/prosCons/", element: <Records /> },
 ]
 
 

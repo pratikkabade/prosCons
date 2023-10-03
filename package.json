@@ -1,6 +1,5 @@
 {
-  "name": "my-ProsCons",
-  "homepage": "https://pratikkabade.github.io/my-ProsCons",
+  "name": "prosCons",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
